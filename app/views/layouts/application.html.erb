@@ -10,19 +10,20 @@
   </head>
 
   <body>
- <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            
-            <%= link_to 'Weather', root_path, class: 'navbar-brand' %>
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        
+        <%= link_to 'Weather', root_path, class: 'navbar-brand text-center' %>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-            </ul>
-          </div>
-        </nav>
+        </ul>
+      </div>
+    </nav>
 
+      
 
     <%= yield %>
   </body>

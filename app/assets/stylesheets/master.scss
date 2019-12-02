@@ -10,7 +10,34 @@
   text-align: center;
 }
 
-body {
- background-image: url("paper.gif");
- background-color: #cccccc;
+ .navbar-brand{
+ 	text-align: center;
+ }
+
+ .lead{
+ 	text-align: center;
+ }
+
+ .locations{
+ font-weight: bold;
+ }
+
+ .weather_summary{
+ 	text-align: center;
+ 	font-weight: bold;
+ 	font-size: 25px;
+ 	color: blue;
+ }
+
+.jumbotron {
+    background: none
+}
+ 
+ 
+ body{
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
